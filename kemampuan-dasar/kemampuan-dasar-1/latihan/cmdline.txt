@@ -1,0 +1,72 @@
+1. ls
+ahnaf@ahnaf-ux303ub:~$ ls
+Desktop    Downloads         filename  Pictures  Templates
+Documents  examples.desktop  Music     Public    Videos
+
+
+2. ls -R
+ahnaf@ahnaf-ux303ub:~$ ls -R
+.:
+Desktop    Downloads         filename  Pictures  Templates
+Documents  examples.desktop  Music     Public    Videos
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+
+
+3. ls -a
+ahnaf@ahnaf-ux303ub:~$ ls -a
+.              Desktop           .gphoto        .profile
+..             Documents         .ICEauthority  Public
+.bash_history  Downloads         .local         .ssh
+.bash_logout   examples.desktop  .mozilla       .sudo_as_admin_successful
+.bashrc        filename          Music          Templates
+.cache         .gnome            Pictures       Videos
+.config        .gnupg            .pki
+
+
+4. cat>file (make file)
+ahnaf@ahnaf-ux303ub:~$ cat>file
+testfile
+
+
+5. cat file (view file)
+ahnaf@ahnaf-ux303ub:~$ cat file
+testfile
+
+
+6. rm file (remove file)
+ahnaf@ahnaf-ux303ub:~$ rm file
+
+
+7. mkdir name (make directory)
+ahnaf@ahnaf-ux303ub:~$ mkdir name
+ahnaf@ahnaf-ux303ub:~$ cd name
+ahnaf@ahnaf-ux303ub:~/name$
+
+
+8. cd name
+ahnaf@ahnaf-ux303ub:~$ mkdir name
+ahnaf@ahnaf-ux303ub:~$ cd name
+ahnaf@ahnaf-ux303ub:~/name$
+
+
+9. mv name nameedit  (rename directory)
+ahnaf@ahnaf-ux303ub:~$ mv name nameedit
+
+
+10. rmdir nameedit (remove directory)
+ahnaf@ahnaf-ux303ub:~$ rmdir nameedit

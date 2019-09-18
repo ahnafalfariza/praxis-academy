@@ -1,0 +1,22 @@
+ahnaf@ahnaf-ux303ub:~$ uname -r
+5.0.0-23-generic
+
+ahnaf@ahnaf-ux303ub:~$ uname -a
+Linux ahnaf-ux303ub 5.0.0-23-generic #24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+ahnaf@ahnaf-ux303ub:~$ cat /proc/version
+Linux version 5.0.0-23-generic (buildd@lgw01-amd64-030) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019
+
+ahnaf@ahnaf-ux303ub:~$ dmesg | grep Linux
+[    0.000000] Linux version 5.0.0-23-generic (buildd@lgw01-amd64-030) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019 (Ubuntu 5.0.0-23.24~18.04.1-generic 5.0.15)
+[    0.153596] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.153596] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    0.153596] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[    0.211614] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[    0.265423] pps_core: LinuxPPS API ver. 1 registered
+[    0.925667] Linux agpgart interface v0.103
+[    0.942293] usb usb1: Manufacturer: Linux 5.0.0-23-generic xhci-hcd
+[    0.946935] usb usb2: Manufacturer: Linux 5.0.0-23-generic xhci-hcd
+[    2.219008] Intel(R) Wireless WiFi driver for Linux
+[    2.398219] media: Linux media interface: v0.10
+[    2.415609] videodev: Linux video capture interface: v2.00
