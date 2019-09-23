@@ -2,7 +2,7 @@
 ## Syntax
 
 
-**1. Hello World**\
+### 1. Hello World
 Every app has the ```main()``` function, to display "Hello, world!" it uses ```print()``` syntax
 ```
   void main() {
@@ -11,7 +11,7 @@ Every app has the ```main()``` function, to display "Hello, world!" it uses ```p
 ```
 
 
-**2. Variables**\
+### 2. Variables
 Example to create variable and initializing it
 ```
   var name = 'Ahnaf';
@@ -31,7 +31,7 @@ Final and const variable. It can only be assigned once and it can't be change
 ```
 
 
-**3. Control flow statements**
+### 3. Control flow statements
 - ```if``` and ```else```, 
 - ```for``` loops,
 - ```while``` and ```do-while``` loops, 
@@ -40,7 +40,7 @@ Final and const variable. It can only be assigned once and it can't be change
 - ```assert```
 
 
-**4. Function**
+### 4. Function
 We should specify functions agruments and return value
 ```
   int fibonacci(int n) {                                // Declaring function
@@ -52,7 +52,7 @@ We should specify functions agruments and return value
 ```
 
 
-**5. Comments**
+### 5. Comments
 usually using ```//``` or ```/* code */```
 ```
   // This for one line
@@ -66,7 +66,7 @@ usually using ```//``` or ```/* code */```
 ```
 
 
-**6. Imports**\
+### 6. Imports
 To access a libraries
 ```
   // Importing core libraries
