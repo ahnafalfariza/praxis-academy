@@ -32,9 +32,26 @@ Final and const variable. It can only be assigned once and it can't be change
 
 
 ### 3. Control flow statements
-- ```if``` and ```else```, 
+- ```if``` and ```else```,
+```
+    if (year >= 2001) {
+      print('21st century');
+    } else if (year >= 1901) {
+      print('20th century');
+    }
+```
 - ```for``` loops,
+```
+    for (var object in flybyObjects) {
+     print(object);
+    }
+```
 - ```while``` and ```do-while``` loops, 
+```
+  while (year < 2016) {
+    year += 1;
+  }
+```
 - ```break``` and ```continue```,
 - ```switch``` and ```case```,
 - ```assert```
