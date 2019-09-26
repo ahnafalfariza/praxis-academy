@@ -8,5 +8,5 @@ main(){
 
   final nama = 'Bob'; //
   // if we assign again name = 'Andi', it will produce an error
-  cont name = 'Alex'
+  const names = 'Alex';
 }
